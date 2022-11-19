@@ -1,0 +1,87 @@
+body{
+    background-color:rgb(2, 59, 77);
+  overflow: hidden;
+  }
+  @media(max-width:510px) {
+   
+    .custom_design{
+      margin:35% auto !important;
+      width: 300px !important;
+      height: 420px;
+    }
+  
+    }
+  .heading{
+    font-size: 1.8rem;
+  }
+  .custom_design{
+  margin: 7% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:35%;
+  font-family: inherit;
+  padding: 2% 2% ;
+  }
+  label{
+  font-weight: 600;
+  padding-bottom: 3px;
+  text-align: left  !important;
+  }
+  .form-style{
+    background-color: rgb(226, 226, 226);
+  }
+  h2{
+    text-align: center;
+    padding: 2%;
+    font-family: inherit;
+    color: black;
+    font-weight: 400;
+  }
+  input{
+    width: 100%;
+    font-family: inherit;
+    font: 1em sans-serif;
+   color: #000000;
+   font-weight: 500;
+    border: 1px solid transparent; 
+    border: none;
+    padding: 2%;
+    background-color: #ffffff7e;
+  }
+  input:focus {
+    outline:none;
+    background-color: rgba(18, 80, 173, 0.293);
+  }
+  input::placeholder{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.418);
+  }
+  .btn{
+    width: 100%;
+  }
+  .Alert-design{
+      color: rgba(255, 0, 0, 0.719);
+      font-size: small;
+      text-align: left;
+      font-weight: bold;
+      padding: 2px;
+    }
+  label{
+    color:black;
+    }
+  p{
+    margin: 0!important;
+    position: absolute;
+  }
+  .style-form{
+    padding-bottom: 30px;
+  
+  }
+  .btn-md{
+    margin: 5px 0;
+  }
+  .btn-col{
+    background-color: rgb(241, 133, 9);
+    border: 2px solid rgb(241, 133, 9);
+  }
