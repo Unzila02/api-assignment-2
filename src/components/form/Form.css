@@ -1,11 +1,11 @@
 body{
     background-color:rgb(2, 59, 77);
-  overflow: hidden;
+  
   }
   @media(max-width:510px) {
    
     .custom_design{
-      margin:35% auto !important;
+      margin:50% auto !important;
       width: 300px !important;
       height: 420px;
     }
@@ -13,6 +13,11 @@ body{
     }
   .heading{
     font-size: 1.8rem;
+    text-align: center;
+    padding: 2%;
+    font-family: inherit;
+    color: black;
+    font-weight: 600;
   }
   .custom_design{
   margin: 7% auto;
@@ -30,13 +35,6 @@ body{
   }
   .form-style{
     background-color: rgb(226, 226, 226);
-  }
-  h2{
-    text-align: center;
-    padding: 2%;
-    font-family: inherit;
-    color: black;
-    font-weight: 400;
   }
   input{
     width: 100%;
@@ -66,14 +64,12 @@ body{
       text-align: left;
       font-weight: bold;
       padding: 2px;
+      margin: 0!important;
+    position: absolute;
     }
   label{
     color:black;
     }
-  p{
-    margin: 0!important;
-    position: absolute;
-  }
   .style-form{
     padding-bottom: 30px;
   
@@ -85,3 +81,32 @@ body{
     background-color: rgb(241, 133, 9);
     border: 2px solid rgb(241, 133, 9);
   }
+
+
+  /* success.jsx page style */
+  .design{
+  margin: 7% auto;
+  width:35%;
+  font-family: inherit;
+  padding: 2% 2%;
+  background-color: rgb(226, 226, 226);
+  }
+
+.images{
+  text-align: center !important;
+  margin: 4% auto;
+}
+.para{
+  color :red;
+  margin: 1% auto;
+}
+.mar{
+  margin: 0;
+  font-weight: 500;
+}
+.last{
+margin: 2% auto;
+}
+.last-style{
+  color: red;
+}
